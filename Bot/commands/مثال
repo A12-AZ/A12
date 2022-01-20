@@ -1,0 +1,56 @@
+// const { Client } = require("discord.js");
+// const { ICallbackObject } = require("wokcommands");
+// module.exports = {
+//   name: "",
+//   aliases: [],
+//   category: "",
+//   description: "",
+//   // expectedArgs: '',
+//   // minArgs: 0,
+//   // maxArgs: 0,
+//   syntaxError: "",
+//   permissions: [],
+//   // cooldown: '',
+//   // globalCooldown: '',
+//   hidden: false,
+//   ownerOnly: false,
+//   testOnly: false,
+//   guildOnly: true,
+//   slash: "both",
+//   options: [
+//     {
+//       name: "",
+//       description: "",
+//       required: true,
+//       // https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type
+//       type: 0,
+//       choices: [
+//         {
+//           name: "",
+//           value: "",
+//         },
+//       ],
+//     },
+//   ],
+//   /**
+//    *
+//    * @param {Client} client
+//    */
+//   init: (client, instance) => {},
+//   /**
+//    * @param {ICallbackObject} ICallbackObject
+//    *
+//    */ callback: async ({
+//     guild,
+//     member,
+//     user,
+//     message,
+//     channel,
+//     args,
+//     text,
+//     client,
+//     prefix,
+//     instance,
+//     interaction,
+//   }) => {},
+// };
